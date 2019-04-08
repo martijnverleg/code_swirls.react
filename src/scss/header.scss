@@ -1,0 +1,26 @@
+.header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 100;
+  text-align: center;
+  text-shadow: #000 0 0 16px;
+}
+
+.header__title {
+  font-family: "Source Code Pro", Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-size: 32px;
+  margin: 0;
+}
+
+.header__subtitle {
+  font-size: 24px;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
